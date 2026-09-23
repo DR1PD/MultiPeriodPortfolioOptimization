@@ -38,7 +38,7 @@ jupyter nbconvert --to notebook --execute --inplace projects/01_portfolio_optimi
 
 ---
 
-## Repository layout
+## Layout
 
 - [`projects/01_portfolio_optimization/`](./projects/01_portfolio_optimization/) — the project: [`notebooks/exploration.ipynb`](./projects/01_portfolio_optimization/notebooks/exploration.ipynb) (the full narrative analysis, committed with outputs), `src/` (the extracted package), `config.yaml` (all parameters, schema-validated), `DESIGN.md` (the pre-registered spec), per-module tests.
 - [`common/`](./common/) — shared library (data loading, metrics, causal HMM filter, plotting theme) used across the research program.
@@ -56,7 +56,7 @@ pytest
 
 Market data is downloaded on first notebook run and cached to `data/` (never committed).
 
-## Authorship & tooling
+## Authorship
 
 This project was built with AI-assisted development (Claude Code). All methodology,
 parameter choices, and research decisions are mine; every number-moving change has a
