@@ -16,7 +16,7 @@ over 2005–2024 on 46 surviving large caps, against five hand-rolled
 benchmarks under identical costs. IS 2005–2017 / OOS 2018–2024. Code:
 [`src/portopt/`](projects/01_portfolio_optimization/src/portopt/).
 
-## Conclusion
+## Results
 
 **The optimizer's correct policy turned out to be restraint.**
 At the documented baseline (κ=0.005) the optimizer never trades, and the
