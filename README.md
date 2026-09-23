@@ -72,4 +72,4 @@ This repository is one of three companion projects sharing the `common/` library
 2. [**Eigenportfolios via Random Matrix Theory**](https://github.com/DR1PD/EigenportfoliosRMT) — Marchenko-Pastur denoising, the five-probe tie
 3. [**HMM Regime Detection**](https://github.com/DR1PD/HMMRegimeDetection) — causal filtering, the detector/strategy split
 
-*Author: David Colindres — M.S. Industrial & Systems Engineering + M.A. Econometrics, University of Oklahoma.*
+*by David Colindres*
