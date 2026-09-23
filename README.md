@@ -12,15 +12,15 @@ over 2005–2024 on 46 surviving large caps, against five hand-rolled
 benchmarks under identical costs. IS 2005–2017 / OOS 2018–2024. Code:
 [`src/portopt/`](projects/01_portfolio_optimization/src/portopt/).
 
-**The honest headline: the optimizer's correct policy was restraint.**
-At the documented baseline (κ=0.005) the optimizer never trades — and the
-21-cell κ×γ grid shows why that's the *answer*, not a bug: the freeze
+**The optimizer's correct policy turned out to be restraint.**
+At the documented baseline (κ=0.005) the optimizer never trades, and the
+21-cell κ×γ grid shows why that is the answer rather than a bug: the freeze
 boundary sits exactly at the baseline; below it the optimizer trades, costs
 barely bite (gross−net ≤ 0.003 Sharpe), **and trading still doesn't pay**
 (2/12 trading cells beat equal-weight OOS, within noise; even in-sample
 selection prefers a frozen cell). Costs are irrelevant; **forecast quality
-is the binding constraint.** Independent rediscovery of DeMiguel et al.
-(2009) by the machinery built to refute it.
+is the binding constraint.** The machinery built to refute DeMiguel et al.
+(2009) ended up rediscovering it.
 
 ![Cumulative net returns](results/figures/p1_fig05.png)
 ![The κ×γ trade-off surface](results/figures/p1_fig06.png)
