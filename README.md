@@ -69,5 +69,3 @@ parameter choices, and research decisions are mine; every number-moving change h
 paper trail in [`results/CHANGELOG.md`](results/CHANGELOG.md), and every core result
 is pinned by the test suite (`pytest` from the repo root). I can defend any line of
 this code, and that is the standard the whole repository is written to.
-
-*by David Colindres*
