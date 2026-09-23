@@ -62,14 +62,6 @@ This project was built with AI-assisted development (Claude Code). All methodolo
 parameter choices, and research decisions are mine; every number-moving change has a
 paper trail in [`results/CHANGELOG.md`](results/CHANGELOG.md), and every core result
 is pinned by the test suite (`pytest` from the repo root). I can defend any line of
-this code — that is the standard the whole repository is written to.
-
-## Part of a three-project research program
-
-This repository is one of three companion projects sharing the `common/` library and the same IS/OOS discipline:
-
-1. [**Multi-Period Portfolio Optimization**](https://github.com/DR1PD/MultiPeriodPortfolioOptimization) — CVXPY, exact cost-model contract, the restraint result
-2. [**Eigenportfolios via Random Matrix Theory**](https://github.com/DR1PD/EigenportfoliosRMT) — Marchenko-Pastur denoising, the five-probe tie
-3. [**HMM Regime Detection**](https://github.com/DR1PD/HMMRegimeDetection) — causal filtering, the detector/strategy split
+this code, and that is the standard the whole repository is written to.
 
 *by David Colindres*
