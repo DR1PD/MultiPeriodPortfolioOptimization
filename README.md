@@ -7,7 +7,7 @@ rolling Fama-French-3 model, Ledoit-Wolf covariance, an explicit 3/2-power
 impact cost in the objective — should beat naive allocation once real
 trading frictions are charged.
 
-## Method
+## Methodology
 
 CVXPY optimizer (long-only, 5% weight cap, turnover cap; the
 objective charges *exactly* the cost model the backtest charges — machine-
@@ -15,6 +15,8 @@ checked contract, `tests/test_p1_cost_alignment.py`), walk-forward monthly
 over 2005–2024 on 46 surviving large caps, against five hand-rolled
 benchmarks under identical costs. IS 2005–2017 / OOS 2018–2024. Code:
 [`src/portopt/`](projects/01_portfolio_optimization/src/portopt/).
+
+## Conclusion
 
 **The optimizer's correct policy turned out to be restraint.**
 At the documented baseline (κ=0.005) the optimizer never trades, and the
