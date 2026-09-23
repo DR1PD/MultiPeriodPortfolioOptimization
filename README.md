@@ -1,11 +1,15 @@
 # Multi-Period Portfolio Optimization with Transaction Costs
 
-**Hypothesis.** Multi-period convex optimization — expected returns from a
+## Hypothesis
+
+Multi-period convex optimization — expected returns from a
 rolling Fama-French-3 model, Ledoit-Wolf covariance, an explicit 3/2-power
 impact cost in the objective — should beat naive allocation once real
 trading frictions are charged.
 
-**Method.** CVXPY optimizer (long-only, 5% weight cap, turnover cap; the
+## Method
+
+CVXPY optimizer (long-only, 5% weight cap, turnover cap; the
 objective charges *exactly* the cost model the backtest charges — machine-
 checked contract, `tests/test_p1_cost_alignment.py`), walk-forward monthly
 over 2005–2024 on 46 surviving large caps, against five hand-rolled
