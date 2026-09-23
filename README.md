@@ -56,6 +56,14 @@ pytest
 
 Market data is downloaded on first notebook run and cached to `data/` (never committed).
 
+## Authorship & tooling
+
+This project was built with AI-assisted development (Claude Code). All methodology,
+parameter choices, and research decisions are mine; every number-moving change has a
+paper trail in [`results/CHANGELOG.md`](results/CHANGELOG.md), and every core result
+is pinned by the test suite (`pytest` from the repo root). I can defend any line of
+this code — that is the standard the whole repository is written to.
+
 ## Part of a three-project research program
 
 This repository is one of three companion projects sharing the `common/` library and the same IS/OOS discipline:
